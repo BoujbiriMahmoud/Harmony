@@ -1,0 +1,26 @@
+[package]
+name = "Harmony"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "Harmony"
+path = "src/main.rs"
+
+[[bin]]
+name = "server1"
+path = "src/server1.rs"
+
+[[bin]]
+name = "server2"
+path = "src/server2.rs"
+
+[[bin]]
+name = "server3"
+path = "src/server3.rs"
