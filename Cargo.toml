@@ -1,16 +1,21 @@
 [package]
-name = "Harmony"
+name = "harmony"
+default-run = "harmony"
 version = "0.1.0"
 edition = "2021"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix-web = "4"
+log = "0.4"
+env_logger = "0.9.0"
+actix-web = "4.0.0"
+hyper = { version = "0.14", features = ["full", "server"] }
 tokio = { version = "1", features = ["full"] }
 
 [[bin]]
-name = "Harmony"
+name = "harmony"
 path = "src/main.rs"
 
 [[bin]]
