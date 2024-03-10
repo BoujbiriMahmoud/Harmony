@@ -67,6 +67,7 @@ RUST_LOG=info cargo run --bin harmony
 1. Clone the repository.
 2. Ensure you have Rust and Cargo installed.
 3. Start the webservers individually by running the following commands:
+   
    - Server 1:
 ```
 cargo run --bin server1
@@ -124,4 +125,4 @@ Observe the load balancer handling the stress test, and review the performance m
 
 Feel free to explore and modify the code to suit your specific requirements. If you have any questions or encounter issues, refer to the source code comments or consult the documentation for the used libraries.
 
-🎉**We wish you happy balancing!**🎉
+🎉 **We wish you happy balancing!** 🎉
