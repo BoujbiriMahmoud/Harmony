@@ -64,9 +64,12 @@ RUST_LOG=info cargo run --bin harmony
 
 ## 🏃 Running the Load Balancer
 
-1. Clone the repository.
-2. Ensure you have Rust and Cargo installed.
-3. Start the webservers individually by running the following commands:  
+1. Clone the repository:
+```
+https://github.com/BoujbiriMahmoud/Harmony/
+```
+3. Ensure you have Rust and Cargo installed.
+4. Start the webservers individually by running the following commands:  
 - Server 1:
 ```
 cargo run --bin server1
