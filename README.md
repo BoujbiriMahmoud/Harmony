@@ -53,7 +53,7 @@ The code is organized into several main sections:
 
 ### Rate Limiting
 
-- The load balancer implements a basic rate limit of 50 requests per client IP. Adjust the limit in the `proxy_request` function if needed.
+- The load balancer implements a basic rate limit of **50** requests per client IP. Adjust the limit in the `proxy_request` function if needed.
 
 ### Logging
 
@@ -68,8 +68,11 @@ RUST_LOG=info cargo run --bin harmony
 ```
 https://github.com/BoujbiriMahmoud/Harmony/
 ```
-3. Ensure you have Rust and Cargo installed.
-4. Start the webservers individually by running the following commands:  
+3. Ensure you have Rust and Cargo installed, if not check the following website:
+```
+https://www.rust-lang.org/tools/install
+```
+5. Start the webservers individually by running the following commands:  
 - Server 1:
 ```
 cargo run --bin server1
