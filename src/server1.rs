@@ -12,7 +12,7 @@ use actix_web::{web, App, HttpServer};
 ///
 /// ## Usage
 ///
-/// To run Server 2, include the actix-web crate in your dependencies.
+/// To run Server 1, include the actix-web crate in your dependencies.
 ///
 /// ## Endpoint
 ///
