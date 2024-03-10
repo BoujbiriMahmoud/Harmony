@@ -1,0 +1,33 @@
+Reflection:
+
+1. Milestones:
+   - Yes, I completed most of the milestones.
+   - I attempted all the tasks as per the given instructions.
+   - As of now, there are no known bugs, but further testing might reveal unforeseen issues.
+
+2. Likes and Dislikes:
+   - Liked:
+     - The assignment provided a practical application of Rust programming, combining elements of networking, asynchronous programming, and web development.
+     - The structured breakdown of the load balancer project made it easier to understand and work on different components.
+
+   - Disliked:
+     - The lack of clarity in terminology between the "Usage" and "Running the Load Balancer" sections caused a momentary confusion.
+     - Not treating security issues such as adding tls/ssl for the servers.
+
+3. Challenges:
+   - I faced a slight challenge in understanding the consistency in terminology, as mentioned above. However, it was quickly resolved through careful re-reading of the documentation.
+   - Some stages of developping were challenging as I don't have any experience in rust, but luckily rust is a well documented language and there are various supports on the internet.
+
+4. Performance Improvement:
+   - While the code structure and implementation seem well-optimized, I didn't specifically attempt any performance improvements.
+
+5. Next Steps:
+   - If continuing to work on this project, a logical next step might be to implement additional features such as:
+     - Dynamic scaling based on server loads.
+     - Support for different load balancing algorithms.
+     - Enhanced logging and monitoring features for better debugging.
+     - Focus on securing the Load Balancer.
+
+6. Surprises and Learning:
+   - I was pleasantly surprised by the comprehensive documentation provided over the internet. It facilitated a smooth understanding of the project.
+   - I learned about implementing a simple load balancer in Rust, incorporating features like rate limiting, health checks, and logging.
