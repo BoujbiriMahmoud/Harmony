@@ -110,7 +110,7 @@ for i in {1..100}; do curl http://127.0.0.1:8080/ & done
 ```
 
 ### Health Update Testing
-After starting the load balancer ***with logs*** and the servers, kill a back-end server and observe the load balancer detecting the server failure and adjusting accordingly. 
+After starting the load balancer ***with logs*** and the servers, kill a backend server and observe the load balancer detecting the server failure and adjusting accordingly. 
 
 ### Stress Testing with Apache Benchmark(ab)
 1. Install Apache Benchmark:
