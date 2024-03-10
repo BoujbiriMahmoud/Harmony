@@ -68,10 +68,7 @@ RUST_LOG=info cargo run --bin harmony
 ```
 https://github.com/BoujbiriMahmoud/Harmony/
 ```
-3. Ensure you have Rust and Cargo installed, if not check the following website:
-```
-https://www.rust-lang.org/tools/install
-```
+3. Ensure you have [Rust and Cargo](https://www.rust-lang.org/tools/install) installed.
 5. Start the webservers individually by running the following commands:  
 - Server 1:
 ```
