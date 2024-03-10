@@ -5,7 +5,7 @@ Welcome to Harmony Load Balancer! This project serves as a simple load balancer 
 
 ## 📖 Overview
 
-**Author:** Mahmoud BOUJBIRI
+**Author:** _Mahmoud BOUJBIRI_
 
 This project, authored by ***Mahmoud BOUJBIRI***, serves as the final exam submission for the Rust Programming Language Module at ESGI Paris. As part of the acknowledgments, special thanks are extended to Mr. BOURY, the Rust instructor, for his dedication and passion throughout the course.
 
@@ -66,7 +66,7 @@ RUST_LOG=info cargo run --bin harmony
 
 1. Clone the repository:
 ```
-https://github.com/BoujbiriMahmoud/Harmony/
+git clone https://github.com/BoujbiriMahmoud/Harmony/
 ```
 3. Ensure you have [Rust and Cargo](https://www.rust-lang.org/tools/install) installed.
 5. Start the webservers individually by running the following commands:  
