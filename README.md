@@ -80,7 +80,7 @@ cargo run --bin server2
 cargo run --bin server3
 ```
 4. Start the standard load balancer by running the following command:
-   - Harmony Load Balancer:
+Harmony Load Balancer:
 ```   
 cargo run --bin harmony
 ```
