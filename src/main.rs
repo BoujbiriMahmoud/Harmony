@@ -73,17 +73,13 @@ use log::{info, warn};
 ///
 /// 1. Clone the repository.
 /// 2. Ensure you have Rust and Cargo installed.
-/// 3. Start the webservers individually by running the following commands :
-///
-///    Server 1 : 'cargo run --bin server1'
-///
-///    Server 2 : 'cargo run --bin server2'
-///
-///    Server 3 : 'cargo run --bin server3'
-///
 /// 3. Start the load balancer by running the following command :
 ///
 ///    Harmony Load Balancer : 'cargo run --bin harmony'
+///
+///4. Start the load balancer with logs by running the following command :
+///
+///   Harmony Load Balancer with logs : 'RUST_LOG=info cargo run --bin harmony'
 ///
 /// Feel free to explore and modify the code to suit your specific requirements. If you have any questions or encounter issues, refer to the source code comments or consult the documentation for the used libraries.
 ///
