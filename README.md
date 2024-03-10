@@ -1,4 +1,4 @@
-# 🌐 Harmony Load Balancer 
+# ⚖️ Harmony Load Balancer 
 
 
 Welcome to Harmony Load Balancer! This project serves as a simple load balancer for distributing incoming HTTP requests among multiple backend servers.
